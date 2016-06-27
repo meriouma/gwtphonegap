@@ -115,4 +115,9 @@ public class NotificationBrowserImpl implements Notification {
 
 	}
 
+        @Override
+        public void vibrate(int[] pattern) {
+            throw new UnsupportedOperationException("Not supported yet."); 
+        }
+
 }
